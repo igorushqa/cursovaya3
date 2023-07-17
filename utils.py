@@ -59,6 +59,3 @@ def printed_five_operation():
         print(f"{final_date_list[op]} {final_description[op]}\n"
               f"{final_from[op]} -> {final_to[op]}\n"
               f"{final_amount[op]} {final_amount_name[op]}\n")
-
-
-
