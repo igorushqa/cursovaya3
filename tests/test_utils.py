@@ -7,8 +7,8 @@ def test_convert_date():
 
 
 def test_convert_from():
-    assert utils.convert_from("Maestro 1596837868705199") == "Maestro 1596 83** **** 5199"
-    assert utils.convert_from("Счет 75106830613657916952") == "Счет 7510 68** **** 6952"
+    assert utils.convert_from("Maestro 1596837868705199") == ' Maestro 1596 83** **** 5199'
+    assert utils.convert_from("Счет 75106830613657916952") == ' Счет 7510 68** **** 6952'
 
 
 def test_convert_to():

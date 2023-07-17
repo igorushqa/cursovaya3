@@ -12,7 +12,7 @@ def convert_date(date: str) -> str:
 def convert_from(score: str):
     new_score = score.split(" ")
     split_score = new_score[-1]
-    final_score = split_score[0:4] + " " + split_score[4:6] + "**" + " " + "****" + split_score[12:16]
+    final_score = split_score[0:4] + " " + split_score[4:6] + "**" + " " + "****" + " " + split_score[-4:]
     split_name = new_score[:-1]
     big_name = ""
     for name in split_name:

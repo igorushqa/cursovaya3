@@ -2,6 +2,10 @@ import settings
 from tests.example import example_list
 
 
+def test_get_data():
+    ...
+
+
 def test_delete_empty_operations():
     assert settings.delete_empty_operations([{}]) == []
 
