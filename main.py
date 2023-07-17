@@ -1,8 +1,5 @@
-def print_hi(name):
-
-    print(f'Hi, {name}')
+from utils import printed_five_operation
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
+    printed_five_operation()
